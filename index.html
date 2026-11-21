@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4eee2">
+  <meta name="description" content="The wedding invitation of Zeeshan & Ayesha — 3 January 2027.">
+  <title>Zeeshan & Ayesha | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="monogram" href="#page-1" aria-label="Back to beginning">Z <span>&</span> A</a>
+    <span class="top-caption">A celebration of love</span>
+    <button class="sound-hint" id="motionToggle" type="button" aria-pressed="false" title="Pause floating petals">❀ <span>Pause petals</span></button>
+  </header>
+
+  <nav class="page-nav" aria-label="Invitation pages">
+    <a href="#page-1" class="nav-dot active" aria-label="Cover" title="Cover"><span>01</span></a>
+    <a href="#page-2" class="nav-dot" aria-label="Calendar" title="Calendar"><span>02</span></a>
+    <a href="#page-3" class="nav-dot" aria-label="Family invitation" title="Family invitation"><span>03</span></a>
+    <a href="#page-4" class="nav-dot" aria-label="Walima details" title="Walima details"><span>04</span></a>
+  </nav>
+
+  <main>
+    <section class="invitation-page" id="page-1" aria-label="Wedding cover">
+      <div class="page-inner reveal"><img src="assets/01-cover.jpeg" alt="Zeeshan and Ayesha wedding cover, 3 January 2027" fetchpriority="high"></div>
+      <a class="scroll-cue" href="#page-2"><span>Scroll to explore</span><i></i></a>
+    </section>
+    <section class="invitation-page" id="page-2" aria-label="January 2027 calendar">
+      <div class="page-inner reveal"><img src="assets/02-calendar.jpeg" alt="January 2027 calendar with 3 January highlighted" loading="lazy"></div>
+      <a class="scroll-cue" href="#page-3"><span>Continue</span><i></i></a>
+    </section>
+    <section class="invitation-page" id="page-3" aria-label="Family invitation">
+      <div class="page-inner reveal"><img src="assets/03-invitation.jpeg" alt="Wedding invitation from Mr. Mohd Shahid for Mohd Zeeshan and Ayesha Abubakar" loading="lazy"></div>
+      <a class="scroll-cue" href="#page-4"><span>Continue</span><i></i></a>
+    </section>
+    <section class="invitation-page final-page" id="page-4" aria-label="Dawat e Walima details">
+      <div class="page-inner reveal"><img src="assets/04-walima.jpeg" alt="Dawat e Walima on Sunday 3 January 2027, 7 PM onwards, at Chaudhary Marriage Hall, Arazibagh, Azamgarh" loading="lazy"></div>
+      <div class="closing-note">With love, we look forward to celebrating with you</div>
+      <a class="back-top" href="#page-1">Back to the beginning ↑</a>
+    </section>
+  </main>
+  <div class="petal-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
